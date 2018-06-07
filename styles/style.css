@@ -241,8 +241,9 @@ h1 {
 	font-size: 12pt;
 	text-align: center;
 	line-height: 1.5;
-	padding: 0 30px;
+	padding: 0 40px 30px;
 	margin:0;
+	position: relative;
 }
 .description h3 {
 	font-size: 11.5pt; 
@@ -259,10 +260,15 @@ h1 {
 	margin: 0;
 } 
 .description p {
-	/*font-size: 14pt;*/
 	color: rgb( 119, 119, 119 );
+	margin: 0;
+	padding: 10px 0;
 }
 .description .number{
+	position: absolute;
+	top: 330px;
+	left: 45%;
+	margin: 0;
 	display: block;
 	font-family: "Times New Roman";
 	vertical-align: bottom;

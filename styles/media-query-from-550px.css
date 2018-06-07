@@ -30,6 +30,9 @@
 		margin: 7% auto;
 		border: 1px solid transparent;
 	}
+	.description .number{
+		top: 260px;
+	}
 	.love .image {
 		background: url("../images/white-triangle-top.gif") no-repeat scroll 25% 100%, 
 		rgba(0, 0, 0, 0) url("../images/photo-3-love.png") no-repeat scroll center center;
