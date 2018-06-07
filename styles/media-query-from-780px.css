@@ -1,0 +1,52 @@
+@media screen and (max-width: 780px) {
+	.about-us .big-img {
+		min-width: 250px;
+		top: -35px;
+		left: 20%;
+	}
+	.about-us .little-img{
+		min-width: 130px;
+		top: 15%;
+		left: 5%;
+	}
+	.about-us .text {
+		width: 80%;
+		margin-top: 65%;
+		margin-bottom: 70px;
+	}
+	.description {
+		font-size: 10pt;
+	}
+	.description h3 {
+		font-size: 11pt; 
+		margin: 13% auto;
+	}
+	.description h2 {
+		font-size: 13pt;
+	} 
+	.form-order {
+		width: 75%;/*856px;*/
+		height: auto;
+		margin: 2% 0;
+		padding: 2%;
+		padding-bottom: 1%;
+		background-color: white;
+		border-radius: 5px;
+	}
+	.do-you-wanna-go .form-order input[type="text"]{
+		width: 100%;
+		border-bottom: 1px solid #f6f4f4;
+	}
+	.do-you-wanna-go .form-order input[type="text"]:first-child{
+		border-right: none;
+	}
+	.do-you-wanna-go .form-order input[type="submit"]{
+		font-size: 13pt;
+		width: 100%;
+		height: 45px;
+	}
+	footer .social-buttons{
+		margin-left: 17%;
+	}
+}
+	

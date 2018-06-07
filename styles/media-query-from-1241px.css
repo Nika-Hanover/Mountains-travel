@@ -1,0 +1,73 @@
+@media screen and (max-width: 1241px){
+	.wrapper {
+		width: 91%;
+	}
+	.top-bar {
+		border: 1px solid transparent;
+	}
+	.main-menu {
+		display: block;
+		margin: 0 auto 10px;
+		padding: 0;
+	}
+	.our-journal .shadow{
+		margin: 70px auto;
+		width: auto;
+	}
+	.our-journal .two-blocks{
+		display: block;
+		float: none;
+		width: 100%;
+		max-width: 740px;
+		margin: 0 auto;
+		border: 1px solid transparent;
+	}
+	.our-journal .water{
+		display: block;
+		margin: 0 auto;
+		float: none;
+		width: 100%;
+		max-width: 740px;
+	}
+	.water .image{
+		width: 50%;
+		display: inline-block;
+		float: left;
+		background: url(../images/white-triangle-left.gif) no-repeat 100% 52px,
+		url(../images/photo-5-water.jpg) no-repeat center;
+	}
+	.water .description{
+		width: 50%;
+		display: inline-block;
+	}
+	.travel-block {
+		padding-left: 1%;
+		width: 16%;
+		min-width: 132px;
+		margin-right: 1.5%;
+	}
+	.travel-block h2{
+		font-size: 16pt;
+		margin-top: 35%;
+	}
+	.travel-block p{
+		font-size: 12px;
+		margin-bottom: 20%;
+	}
+	.travel-block .price{
+		margin-left: -4%;
+		height: 43px;
+		padding: 1% 5%; 
+
+	}
+	.travel-block .price s{
+		font-size: 10pt;
+	}
+	.travel-block .price b{
+		font-size: 16pt;	
+	}
+	footer .phone{
+		font-size: 15pt;
+	}
+}
+	

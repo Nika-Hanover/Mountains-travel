@@ -1,0 +1,118 @@
+@media screen and (max-width: 550px){
+	
+	.central-advertisement .text .white {
+		font-size: 35pt;
+	}
+	.central-advertisement .text .blue {
+		font-size: 45pt;
+		top: 109px;
+		left: -20px;
+	}
+	
+	.central-advertisement .text p {
+		width: 90%;
+		margin-top: 20%;
+	}
+	.central-advertisement .text .button {
+		height: 60px;
+		padding: 18px 30px;
+		width: 60%;
+		min-width: 187px;
+	}
+	.our-journal .image {
+		width: 100%;
+	}
+	.description {
+		width: 100%;
+		height: 300px;
+	}
+	.description h3 {
+		margin: 7% auto;
+		border: 1px solid transparent;
+	}
+	.love .image {
+		background: url("../images/white-triangle-top.gif") no-repeat scroll 25% 100%, 
+		rgba(0, 0, 0, 0) url("../images/photo-3-love.png") no-repeat scroll center center;
+	}
+	.tree{
+		display: flex;
+		flex-flow: column-reverse wrap;
+		width: 100%;
+	}
+	.tree .image {
+		background: url("../images/white-triangle-top.gif") no-repeat scroll 75% 100%, 
+		rgba(0, 0, 0, 0) url("../images/photo-4-tree.png") no-repeat scroll center center;
+	}
+	.water .description {
+		width: 100%;
+	}
+	.water .image {
+		background: url("../images/white-triangle-top.gif") no-repeat scroll 25% 100%, 
+		rgba(0, 0, 0, 0) url("../images/photo-5-water.png") no-repeat scroll center center;
+	}
+	.form-order {
+		width: 90%;
+	}
+	.travel-block {
+		min-width: 131px;
+		margin-right: 0.1%;
+	}
+	.block-one {
+		width: 39.45%;
+	}
+	.block-two {
+		width: 53.25%;
+		margin-right: 0;
+	}
+	.block-three {
+		width: 100%;
+		margin-top: 3%;
+	}
+	.number-work {
+		min-width: 70px;
+		margin-right: 5%;
+	}
+	.circle-shadow {
+		display: none;
+	}
+	.our-clients-say .coment {
+		margin-top: 5%;
+		font-size: 10pt;
+	}
+	.coment .person {
+		margin-top: 10%;
+	}
+	.our-clients-say form {
+		width: 90%;
+		padding-right: 6%;
+	}
+	form h1 {
+		font-size: 23pt;
+		margin-top: 15%;
+		margin-bottom: 2%;
+	}
+	form span {
+		font-size: 11pt;
+		margin-bottom: 6%;
+	}
+	form input[type="text"] {
+		font-size: 11pt;
+		height: 40px;
+		margin-bottom: 6%;
+	}
+	form input[type="submit"] {
+		font-size: 12pt;
+		height: 50px;
+	}
+	footer .social-buttons {
+		margin-left: 7%;
+		max-width: 32%;
+	}
+	footer .phone {
+		font-size: 11pt;
+		min-width: 97px;
+		text-align: right;
+		margin-top: 4%;
+	}
+}
+	

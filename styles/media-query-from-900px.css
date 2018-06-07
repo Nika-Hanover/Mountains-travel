@@ -1,0 +1,48 @@
+@media screen and (max-width: 900px) {
+	.how-we-work .wrapper{
+		display: flex;
+		flex-direction: column;
+	}
+	.work-block {
+		width: 100%;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		height: 238px;
+		margin-bottom: 0;
+	}
+	.work-block:first-child{
+		margin-top: 30px;
+	}
+	.work-block:last-child{
+		margin-bottom: 80px;
+	}
+	.number-work {
+		min-width: 100px;
+		height: 237px;		
+		flex-shrink: 2;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		padding-bottom: -30px;
+		margin-right: 5%;
+		background: url(../images/dotted-line-horizontal-4.gif) left center no-repeat,
+		url(../images/dotted-line-vertical.gif) 82% bottom repeat-y;
+	}
+	.number-work.one-block {
+		background: url(../images/dotted-line-horizontal-4.gif) left center no-repeat,
+		url(../images/dotted-line-vertical-1-4.gif) 82% bottom no-repeat;
+	}
+	.number-work.four-block {
+		background: url(../images/dotted-line-horizontal-4.gif) left center no-repeat,
+		url(../images/dotted-line-vertical-1-4.gif) 82% top no-repeat;
+	}
+	.circle-blue {
+		margin: 0;
+	}
+	.circle-shadow {
+		margin-left: 5%;
+	}
+}
+	
